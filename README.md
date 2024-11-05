@@ -4,7 +4,7 @@
 # What it is (not)
 
 HDF.PInvoke is a collection of [PInvoke](https://en.wikipedia.org/wiki/Platform_Invocation_Services)
-signatures for the [HDF5 C-API](https://docs.hdfgroup.org/hdf5/develop/).
+signatures for the [HDF5 C-API](https://support.hdfgroup.org/documentation/hdf5/latest/).
 It's practically *code-free*, which means we can blame all the bugs on Microsoft or [The HDF Group](https://www.hdfgroup.org/) :smile:
 
 It is **not** a high-level .NET interface for HDF5. "It's the [GCD](https://en.wikipedia.org/wiki/Greatest_common_divisor)
@@ -14,8 +14,8 @@ of .NET bindings for HDF5, not the [LCM](https://en.wikipedia.org/wiki/Least_com
 
 | HDF5 Release Version                                                   | Assembly Version | Assembly File Version | Git Tag |
 | ---------------------------------------------------------------------- | ---------------- | --------------------------------------------------------------- | ------- |
-| [1.8.21](https://portal.hdfgroup.org/downloads/index.html)  | 1.8.21.1         | [1.8.21.1](https://www.nuget.org/packages/HDF.PInvoke/1.8.21.1) | v1.8.21.1  |
-| [1.10.11](https://portal.hdfgroup.org/downloads/index.html) | 1.10.11         | [1.10.11](https://www.nuget.org/packages/HDF.PInvoke/1.10.11) | v1.10.11 |
+| [1.8.21](https://support.hdfgroup.org/downloads/index.html)  | 1.8.21.1         | [1.8.21.1](https://www.nuget.org/packages/HDF.PInvoke/1.8.21.1) | v1.8.21.1  |
+| [1.10.11](https://support.hdfgroup.org/downloads/index.html) | 1.10.11         | [1.10.11](https://www.nuget.org/packages/HDF.PInvoke/1.10.11) | v1.10.11 |
 
 [How "stuff" is versioned.](../../wiki/Versioning-and-Releases)
 
@@ -70,7 +70,7 @@ The HDF Group currently maintains **one** major HDF5 release family, HDF5 1.14. 
 HDF.PInvoke is part of [HDF5](https://www.hdfgroup.org/HDF5/). It is subject to
 the *same* terms and conditions as HDF5. Please review [COPYING](COPYING) or
 [https://www.hdfgroup.org/licenses/](https://www.hdfgroup.org/licenses/)
-for the details. If you have any questions, please [contact us](https://www.hdfgroup.org/about/contact.html).
+for the details. If you have any questions, please [contact us](https://www.hdfgroup.org/contact-us/).
 
 # Supporting HDF.PInvoke
 
