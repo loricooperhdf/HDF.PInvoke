@@ -8,8 +8,7 @@
  * the files COPYING and Copyright.html.  COPYING can be found at the root   *
  * of the source code distribution tree; Copyright.html can be found at the  *
  * root level of an installed copy of the electronic HDF5 document set and   *
- * is linked from the top-level documents page.  It can also be found at     *
- * http://hdfgroup.org/HDF5/doc/Copyright.html.  If you do not have          *
+ * is linked from the top-level documents page.  If you do not have          *
  * access to either file, you may request a copy from help@hdfgroup.org.     *
  * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
@@ -570,7 +569,7 @@ namespace HDF.PInvoke
 #if HDF5_VER1_10
         /// <summary>
         /// Retrieves the setting for whether or not a file will create minimized dataset object headers.
-        /// See https://portal.hdfgroup.org/display/HDF5/H5F_GET_DSET_NO_ATTRS_HINT
+        /// See https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_f.html#gaceb86e903eddc57846c8a249ab5b0a66
         /// </summary>
         /// <param name="file_id">File identifier</param>
         /// <param name="minimize">Flag indicating whether the library will or will not
@@ -586,7 +585,7 @@ namespace HDF.PInvoke
 
         /// <summary>
         /// Retrieves a copy of the image of an existing, open file.
-        /// See https://www.hdfgroup.org/HDF5/doc/RM/RM_H5F.html#File-GetFileImage
+        /// See https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_f.html#gaadcc5da2bf8778217f32c8afc39c811e
         /// </summary>
         /// <param name="file_id">Target file identifier</param>
         /// <param name="buf_ptr">Pointer to the buffer into which the image of
@@ -603,7 +602,7 @@ namespace HDF.PInvoke
 
         /// <summary>
         /// Returns the size of an HDF5 file.
-        /// See https://www.hdfgroup.org/HDF5/doc/RM/RM_H5F.html#File-GetFilesize
+        /// See https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_f.html#gabb3cb7870d5cabb5e5ebc6d00e160eb0
         /// </summary>
         /// <param name="file_id">Identifier of a currently-open HDF5
         /// file</param>
@@ -621,6 +620,7 @@ namespace HDF.PInvoke
         /// <summary>
         /// Retrieves free-space section information for a file.
         /// See https://www.hdfgroup.org/HDF5/docNewFeatures/FileSpace/H5Fget_free_sections.htm
+        /// HELP! I can't find this.
         /// </summary>
         /// <param name="file_id">Identifier of a currently-open HDF5
         /// file</param>
@@ -641,7 +641,7 @@ namespace HDF.PInvoke
 
         /// <summary>
         /// Returns the amount of free space in a file.
-        /// See https://www.hdfgroup.org/HDF5/doc/RM/RM_H5F.html#File-GetFreespace
+        /// See https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_f.html#ga657d74efad7a6c99140ee15b38495cc6
         /// </summary>
         /// <param name="file_id">Identifier of a currently-open HDF5
         /// file</param>
@@ -654,7 +654,7 @@ namespace HDF.PInvoke
 
         /// <summary>
         /// Returns global information for a file.
-        /// See https://www.hdfgroup.org/HDF5/doc/RM/RM_H5F.html#File-GetInfo
+        /// See https://support.hdfgroup.org/documentation/hdf5/latest/group___f_h5_f.html#ga1b95a395f594fdf83021447f68f01e72
         /// </summary>
         /// <param name="obj_id">Object identifier for any object in the
         /// file.</param>
